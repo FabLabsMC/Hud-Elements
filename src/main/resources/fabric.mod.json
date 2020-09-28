@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "${id}",
   "version": "${version}",
-
   "name": "FabLabs ${libname} version ${libver}",
   "icon": "assets/blueprint/icon.png",
   "description": "Template for starting out FabLabs drafts",
@@ -10,10 +9,9 @@
   "contact": {
     "sources": "https://github.com/${repo}"
   },
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "io.github.fablabsmc.fablabs.api.blueprint.v1.Blueprint"
     ]
   },
   "mixins": [
